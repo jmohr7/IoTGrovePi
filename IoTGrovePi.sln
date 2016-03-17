@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTGrovePi", "IoTGrovePi\IoTGrovePi.csproj", "{E70011B1-D9E9-45CD-BA9D-4015F036749D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blinks", "Blinks\Blinks.csproj", "{31EAD5E4-EE24-4568-A9AA-858F4D0E066E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E70011B1-D9E9-45CD-BA9D-4015F036749D}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{E70011B1-D9E9-45CD-BA9D-4015F036749D}.Debug|ARM.ActiveCfg = Debug|ARM
+		{E70011B1-D9E9-45CD-BA9D-4015F036749D}.Debug|ARM.Build.0 = Debug|ARM
+		{E70011B1-D9E9-45CD-BA9D-4015F036749D}.Debug|ARM.Deploy.0 = Debug|ARM
+		{E70011B1-D9E9-45CD-BA9D-4015F036749D}.Debug|x64.ActiveCfg = Debug|x64
+		{E70011B1-D9E9-45CD-BA9D-4015F036749D}.Debug|x64.Build.0 = Debug|x64
+		{E70011B1-D9E9-45CD-BA9D-4015F036749D}.Debug|x64.Deploy.0 = Debug|x64
+		{E70011B1-D9E9-45CD-BA9D-4015F036749D}.Debug|x86.ActiveCfg = Debug|x86
+		{E70011B1-D9E9-45CD-BA9D-4015F036749D}.Debug|x86.Build.0 = Debug|x86
+		{E70011B1-D9E9-45CD-BA9D-4015F036749D}.Debug|x86.Deploy.0 = Debug|x86
+		{E70011B1-D9E9-45CD-BA9D-4015F036749D}.Release|Any CPU.ActiveCfg = Release|x86
+		{E70011B1-D9E9-45CD-BA9D-4015F036749D}.Release|ARM.ActiveCfg = Release|ARM
+		{E70011B1-D9E9-45CD-BA9D-4015F036749D}.Release|ARM.Build.0 = Release|ARM
+		{E70011B1-D9E9-45CD-BA9D-4015F036749D}.Release|ARM.Deploy.0 = Release|ARM
+		{E70011B1-D9E9-45CD-BA9D-4015F036749D}.Release|x64.ActiveCfg = Release|x64
+		{E70011B1-D9E9-45CD-BA9D-4015F036749D}.Release|x64.Build.0 = Release|x64
+		{E70011B1-D9E9-45CD-BA9D-4015F036749D}.Release|x64.Deploy.0 = Release|x64
+		{E70011B1-D9E9-45CD-BA9D-4015F036749D}.Release|x86.ActiveCfg = Release|x86
+		{E70011B1-D9E9-45CD-BA9D-4015F036749D}.Release|x86.Build.0 = Release|x86
+		{E70011B1-D9E9-45CD-BA9D-4015F036749D}.Release|x86.Deploy.0 = Release|x86
+		{31EAD5E4-EE24-4568-A9AA-858F4D0E066E}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{31EAD5E4-EE24-4568-A9AA-858F4D0E066E}.Debug|ARM.ActiveCfg = Debug|ARM
+		{31EAD5E4-EE24-4568-A9AA-858F4D0E066E}.Debug|ARM.Build.0 = Debug|ARM
+		{31EAD5E4-EE24-4568-A9AA-858F4D0E066E}.Debug|ARM.Deploy.0 = Debug|ARM
+		{31EAD5E4-EE24-4568-A9AA-858F4D0E066E}.Debug|x64.ActiveCfg = Debug|x64
+		{31EAD5E4-EE24-4568-A9AA-858F4D0E066E}.Debug|x64.Build.0 = Debug|x64
+		{31EAD5E4-EE24-4568-A9AA-858F4D0E066E}.Debug|x64.Deploy.0 = Debug|x64
+		{31EAD5E4-EE24-4568-A9AA-858F4D0E066E}.Debug|x86.ActiveCfg = Debug|x86
+		{31EAD5E4-EE24-4568-A9AA-858F4D0E066E}.Debug|x86.Build.0 = Debug|x86
+		{31EAD5E4-EE24-4568-A9AA-858F4D0E066E}.Debug|x86.Deploy.0 = Debug|x86
+		{31EAD5E4-EE24-4568-A9AA-858F4D0E066E}.Release|Any CPU.ActiveCfg = Release|x86
+		{31EAD5E4-EE24-4568-A9AA-858F4D0E066E}.Release|ARM.ActiveCfg = Release|ARM
+		{31EAD5E4-EE24-4568-A9AA-858F4D0E066E}.Release|ARM.Build.0 = Release|ARM
+		{31EAD5E4-EE24-4568-A9AA-858F4D0E066E}.Release|ARM.Deploy.0 = Release|ARM
+		{31EAD5E4-EE24-4568-A9AA-858F4D0E066E}.Release|x64.ActiveCfg = Release|x64
+		{31EAD5E4-EE24-4568-A9AA-858F4D0E066E}.Release|x64.Build.0 = Release|x64
+		{31EAD5E4-EE24-4568-A9AA-858F4D0E066E}.Release|x64.Deploy.0 = Release|x64
+		{31EAD5E4-EE24-4568-A9AA-858F4D0E066E}.Release|x86.ActiveCfg = Release|x86
+		{31EAD5E4-EE24-4568-A9AA-858F4D0E066E}.Release|x86.Build.0 = Release|x86
+		{31EAD5E4-EE24-4568-A9AA-858F4D0E066E}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
