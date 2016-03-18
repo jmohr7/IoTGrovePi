@@ -1,2 +1,2 @@
 # Documentation
-For installation instructions and more information please go to [a link](http://joepmohr.com/Windows10IoTCore)
+For installation instructions and more information please go [here](http://joepmohr.com/Windows10IoTCore)
