@@ -7,12 +7,10 @@ using Windows.UI.Xaml.Media;
 using GrovePi;
 using GrovePi.Sensors;
 
-// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
-
 namespace Blinks
 {
     /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
+    /// UWP Page that blinks a LED light and displays the status on a the pages main page
     /// </summary>
     public sealed partial class MainPage : Page
     {
@@ -37,6 +35,11 @@ namespace Blinks
             }                      
         }
 
+        /*
+        // Method called every time the app timer interval occurs.  It toggles the on/off
+        // state of the LED as well as updating the color of the circular representation 
+        // of the LED on the UI to match
+        */
         private void Timer_Tick(object sender, object e)
         {
             if (ledOff)

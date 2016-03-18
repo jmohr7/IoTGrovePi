@@ -7,6 +7,9 @@ using Microsoft.ServiceBus.Messaging;
 
 namespace groveiotsub
 {
+    /// <summary>
+    /// Console application that read sound sensor values from an IoT hub and prints them on the console
+    /// </summary>
     class Program
     {
         static string connectionString = ConnectionStrings.connectionString;
@@ -25,6 +28,11 @@ namespace groveiotsub
             }
             Console.ReadLine();
         }
+        /*
+        // Method to receive messages from a specific partion in the IoT Hub
+        //
+        // partition - string representation of the IoT Hub partition Id
+        */
         private async static Task ReceiveMessagesFromDeviceAsync(string partition)
         {
             var eventHubReceiver = eventHubClient.GetDefaultConsumerGroup().CreateReceiver(partition, DateTime.UtcNow);

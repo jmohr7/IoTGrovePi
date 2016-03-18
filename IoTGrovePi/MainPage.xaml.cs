@@ -19,12 +19,10 @@ using GrovePi;
 using GrovePi.Sensors;
 using GrovePi.I2CDevices;
 
-// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
-
 namespace IoTGrovePi
 {
     /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
+    /// UWP Page that sends sound sensor readings to Azure
     /// </summary>
     public sealed partial class MainPage : Page
     {
@@ -48,6 +46,12 @@ namespace IoTGrovePi
             timer.Start();
         }
 
+        /*
+        // Method called every time the app timer interval occurs.  It read the sound
+        // level from the sound sensor; converts it to JSON; sends it asynchronously 
+        // to the Azure IoT hub; and finally updates the UI and GrovePI LCD with the 
+        // new sound values
+        */
         private async void Timer_Tick(object sender, object e)
         {
             try
